@@ -26,4 +26,11 @@ inoremap <M-l> <Right>
 
 ```vim
 inoremap jk <esc>
+```
+
+# 非管理员模式下以管理员权限（sudo）保存文件
+
+```
+cnoremap sudow w !sudo tee % >/dev/null
+```
 
