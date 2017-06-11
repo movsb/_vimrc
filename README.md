@@ -30,7 +30,14 @@ inoremap jk <esc>
 
 # 非管理员模式下以管理员权限（sudo）保存文件
 
-```
+```vim
 cnoremap sudow w !sudo tee % >/dev/null
 ```
+
+# [搜索可视化选中的文本](https://blog.twofei.com/610/)
+
+```vim
+vnoremap // y/<c-r>"<cr>
+```
+
 
