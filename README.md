@@ -40,4 +40,18 @@ cnoremap sudow w !sudo tee % >/dev/null
 vnoremap // y/<c-r>"<cr>
 ```
 
+# [使用 `Ctrl + h/j/k/l` 在窗口之间切换](https://blog.twofei.com/620/)
+
+```vim
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+```
+
+# [设置光标不闪烁](https://blog.twofei.com/621/)
+
+```vim
+set guicursor+=a:blinkon0
+```
 
