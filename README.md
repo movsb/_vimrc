@@ -2,12 +2,14 @@
 
 ## 缩进
 
+[https://stackoverflow.com/a/1878983/3628322](https://stackoverflow.com/a/1878983/3628322)
+
 ```vim
 set ai si
-set ts=4 sts=4 expandtab
+set ts=4 sts=4 sw=4 expandtab
 ```
 
-## 行号
+## 使用相对行号
 
 ```vim
 set relativenumber
