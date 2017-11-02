@@ -1,0 +1,13 @@
+BoldAsFont=yes
+CursorType=block
+Font=Microsoft YaHei Mono
+Locale=zh_CN
+Charset=UTF-8
+FontSmoothing=full
+Columns=80
+Rows=30
+Transparency=low
+OpaqueWhenFocused=no
+BackgroundColour=64,0,64
+BoldAsColour=yes
+Scrollbar=none

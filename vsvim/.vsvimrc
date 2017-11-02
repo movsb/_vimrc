@@ -1,0 +1,11 @@
+inoremap <M-h> <Left>
+inoremap <M-j> <Down>
+inoremap <M-k> <Up>
+inoremap <M-l> <Right>
+
+inoremap jk <esc>
+
+set autoindent
+
+" 搜索可视化选中的文本
+vnoremap // y/<c-r>"<cr>
